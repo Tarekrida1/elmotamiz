@@ -2137,5 +2137,31 @@ img {
   text-decoration: none;
   background-color: $main-color;
 }
+#adsModal {
+  margin: 0 !important;
+  display: block;
+  padding-right: 17px;
+  padding: 0 !important;
+  .modal-header {
+    border: none !important;
+    padding: 0;
+  }
+  .modal-dialog {
+    max-width: unset !important;
+    margin: 0 !important;
+    /* transform: unset !important; */
+}
+.modal-content {
+
+padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3803921568627451);
+}
+  .modal-header .close {
+    padding: 1rem;
+    color: #fff !important;
+    opacity: 1;
+}
+}
 /* end about  */
 @import 'responsive'

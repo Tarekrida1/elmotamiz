@@ -2096,6 +2096,36 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
   background-color: #FFD54F;
 }
 
+#adsModal {
+  margin: 0 !important;
+  display: block;
+  padding-right: 17px;
+  padding: 0 !important;
+}
+
+#adsModal .modal-header {
+  border: none !important;
+  padding: 0;
+}
+
+#adsModal .modal-dialog {
+  max-width: unset !important;
+  margin: 0 !important;
+  /* transform: unset !important; */
+}
+
+#adsModal .modal-content {
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.380392);
+}
+
+#adsModal .modal-header .close {
+  padding: 1rem;
+  color: #fff !important;
+  opacity: 1;
+}
+
 /* end about  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area .navbar .navbar-nav .nav-link {

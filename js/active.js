@@ -7,6 +7,13 @@
     //     $(".the-tabs .tab-content").removeClass("shown-tab").addClass("hidden-tab");
     //     $("#" + myID + "-content").addClass("shown-tab");
     // });
+
+    $(window).on('load',function(){
+    
+        setTimeout(()=> {
+            $('#adsModal').modal('show');
+        },2000)
+    });
     $(".egyprosoft-catagory-slider").owlCarousel({
         // items: 3,
         margin: 0,
