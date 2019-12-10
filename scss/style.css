@@ -2108,6 +2108,12 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
   padding: 0;
 }
 
+#adsModal .w-100 {
+  width: 80% !important;
+  display: block;
+  margin: auto;
+}
+
 #adsModal .modal-dialog {
   max-width: unset !important;
   margin: 0 !important;

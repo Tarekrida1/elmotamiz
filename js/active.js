@@ -12,7 +12,7 @@
     
         setTimeout(()=> {
             $('#adsModal').modal('show');
-        },2000)
+        },5000)
     });
     $(".egyprosoft-catagory-slider").owlCarousel({
         // items: 3,
