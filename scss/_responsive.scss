@@ -10,14 +10,14 @@
           }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-          #worldNav {
+          #egyprosoftNav {
             background-color: $color-dark;
             padding: 30px;
           }
         }
         
         @media only screen and (max-width: 767px) {
-          #worldNav {
+          #egyprosoftNav {
             background-color: $color-dark;
             padding: 15px 15px 30px 15px;
           }
@@ -35,39 +35,39 @@
         }
 
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .world-catagory-area .nav-tabs .nav-link.active:after {
+          .egyprosoft-catagory-area .nav-tabs .nav-link.active:after {
             width: calc(100% - 10px);
             left: 5px;
           }
         }
         
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .world-catagory-area .nav-tabs .nav-link.active:after {
+          .egyprosoft-catagory-area .nav-tabs .nav-link.active:after {
             width: calc(100% - 10px);
             left: 5px;
           }
         }
 
         @media only screen and (max-width: 767px) {
-          .world-catagory-area .nav-tabs .nav-link.active:after {
+          .egyprosoft-catagory-area .nav-tabs .nav-link.active:after {
             display: none;
           }
         }
         
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .world-catagory-area .nav-tabs .nav-link {
+          .egyprosoft-catagory-area .nav-tabs .nav-link {
             padding: 0 5px;
           }
         }
         
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .world-catagory-area .nav-tabs .nav-link {
+          .egyprosoft-catagory-area .nav-tabs .nav-link {
             padding: 0 5px;
           }
         }
         
         @media only screen and (max-width: 767px) {
-          .world-catagory-area .nav-tabs .nav-link {
+          .egyprosoft-catagory-area .nav-tabs .nav-link {
             padding: 0 5px;
           }
         }
@@ -140,7 +140,7 @@
           }
         }
         @media only screen and (max-width: 767px) {
-          .world-catagory-slider .owl-nav, .world-catagory-slider2 .owl-nav {
+          .egyprosoft-catagory-slider .owl-nav, .egyprosoft-catagory-slider2 .owl-nav {
             margin-bottom: 30px;
           }
         }
@@ -229,7 +229,7 @@
           .main_categories .nav-item .tab-link {
                     margin-bottom: 20px !important; 
           }
-          #worldNav {
+          #egyprosoftNav {
                     padding: 15px 15px 30px 15px;
                     background: rgba(255, 255, 255, 0.8);
                     -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.12);
@@ -252,7 +252,7 @@
         }
 
         @media only screen and (max-width: 991px) and (min-width: 768px) {
-          #worldNav {
+          #egyprosoftNav {
                     padding: 15px 15px 30px 15px;
                     background: rgba(255, 255, 255, 0.8);
                     -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.12);

@@ -76,7 +76,7 @@ a {
   height: 100%;
   z-index: 1000000; }
 
-#world-load {
+#egyprosoft-load {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -84,10 +84,10 @@ a {
   border-style: solid;
   border-color: transparent;
   border-top-color: #f1f1f1;
-  -webkit-animation: world 2400ms linear infinite;
-  animation: world 2400ms linear infinite;
+  -webkit-animation: egyprosoft 2400ms linear infinite;
+  animation: egyprosoft 2400ms linear infinite;
   z-index: 999; }
-  #world-load:before {
+  #egyprosoft-load:before {
     content: "";
     position: absolute;
     top: 7.5px;
@@ -99,9 +99,9 @@ a {
     border-style: solid;
     border-color: transparent;
     border-top-color: #f1f1f1;
-    -webkit-animation: world 2700ms linear infinite;
-    animation: world 2700ms linear infinite; }
-  #world-load:after {
+    -webkit-animation: egyprosoft 2700ms linear infinite;
+    animation: egyprosoft 2700ms linear infinite; }
+  #egyprosoft-load:after {
     content: "";
     position: absolute;
     top: 20px;
@@ -113,17 +113,17 @@ a {
     border-style: solid;
     border-color: transparent;
     border-top-color: #f1f1f1;
-    -webkit-animation: world 1800ms linear infinite;
-    animation: world 1800ms linear infinite; }
+    -webkit-animation: egyprosoft 1800ms linear infinite;
+    animation: egyprosoft 1800ms linear infinite; }
 
-@-webkit-keyframes world {
+@-webkit-keyframes egyprosoft {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
-@keyframes world {
+@keyframes egyprosoft {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
@@ -292,7 +292,7 @@ img {
     content: '';
     background-color: rgba(0, 0, 0, 0.7); }
 
-.world-btn {
+.egyprosoft-btn {
   position: relative;
   z-index: 1;
   padding: 0 25px;
@@ -303,7 +303,7 @@ img {
   font-size: 14px;
   border-radius: 50px;
   line-height: 32px; }
-  .world-btn:hover, .world-btn:focus {
+  .egyprosoft-btn:hover, .egyprosoft-btn:focus {
     border-color: #0000ff;
     background-color: #0000ff;
     color: #ffffff; }
@@ -352,11 +352,11 @@ img {
   cursor: pointer; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #worldNav {
+  #egyprosoftNav {
     background-color: #000000;
     padding: 30px; } }
 @media only screen and (max-width: 767px) {
-  #worldNav {
+  #egyprosoftNav {
     background-color: #000000;
     padding: 15px 15px 30px 15px; } }
 
@@ -423,28 +423,28 @@ img {
     font-weight: 700; }
 
 /* Blog Content Area CSS */
-.world-catagory-area .nav-tabs {
+.egyprosoft-catagory-area .nav-tabs {
   padding: 10px 0;
   border-bottom: 2px solid #f1f1f1; }
-  .world-catagory-area .nav-tabs .title {
+  .egyprosoft-catagory-area .nav-tabs .title {
     font-size: 18px;
     color: #000000;
     margin-bottom: 0;
     margin-right: auto;
        font-family: cairo , "Ubuntu", sans-serif ;
     font-weight: 700; }
-  .world-catagory-area .nav-tabs .nav-link {
+  .egyprosoft-catagory-area .nav-tabs .nav-link {
     padding: 0 1em;
     position: relative;
     z-index: 1; }
-    .world-catagory-area .nav-tabs .nav-link:hover, .world-catagory-area .nav-tabs .nav-link:focus {
+    .egyprosoft-catagory-area .nav-tabs .nav-link:hover, .egyprosoft-catagory-area .nav-tabs .nav-link:focus {
       color: #000000;
       border: 1px solid transparent;
       font-weight: 400; }
-    .world-catagory-area .nav-tabs .nav-link.active {
+    .egyprosoft-catagory-area .nav-tabs .nav-link.active {
       color: #000000;
       border: 1px solid transparent; }
-      .world-catagory-area .nav-tabs .nav-link.active:after {
+      .egyprosoft-catagory-area .nav-tabs .nav-link.active:after {
         position: absolute;
         left: 15px;
         bottom: -17px;
@@ -454,33 +454,33 @@ img {
         height: 2px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .world-catagory-area .nav-tabs .nav-link.active:after {
+          .egyprosoft-catagory-area .nav-tabs .nav-link.active:after {
             width: calc(100% - 10px);
             left: 5px; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .world-catagory-area .nav-tabs .nav-link.active:after {
+          .egyprosoft-catagory-area .nav-tabs .nav-link.active:after {
             width: calc(100% - 10px);
             left: 5px; } }
         @media only screen and (max-width: 767px) {
-          .world-catagory-area .nav-tabs .nav-link.active:after {
+          .egyprosoft-catagory-area .nav-tabs .nav-link.active:after {
             display: none; } }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .world-catagory-area .nav-tabs .nav-link {
+      .egyprosoft-catagory-area .nav-tabs .nav-link {
         padding: 0 5px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .world-catagory-area .nav-tabs .nav-link {
+      .egyprosoft-catagory-area .nav-tabs .nav-link {
         padding: 0 5px; } }
     @media only screen and (max-width: 767px) {
-      .world-catagory-area .nav-tabs .nav-link {
+      .egyprosoft-catagory-area .nav-tabs .nav-link {
         padding: 0 5px; } }
-  .world-catagory-area .nav-tabs .nav-item.show .nav-link {
+  .egyprosoft-catagory-area .nav-tabs .nav-item.show .nav-link {
     border: 1px solid transparent; }
-  .world-catagory-area .nav-tabs .nav-item .dropdown-menu {
+  .egyprosoft-catagory-area .nav-tabs .nav-item .dropdown-menu {
     margin-top: 15px;
     border-radius: 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     border: none; }
-.world-catagory-area .tab-content {
+.egyprosoft-catagory-area .tab-content {
   padding-top: 30px; }
 
 .single-blog-post {
@@ -661,24 +661,24 @@ img {
     .single-blog-post.post-style-4:last-of-type {
       margin-bottom: 0; }
 
-.world-catagory-slider .owl-item,
-.world-catagory-slider2 .owl-item {
+.egyprosoft-catagory-slider .owl-item,
+.egyprosoft-catagory-slider2 .owl-item {
   padding: 0 0 10px 0; }
-.world-catagory-slider .owl-nav,
-.world-catagory-slider2 .owl-nav {
+.egyprosoft-catagory-slider .owl-nav,
+.egyprosoft-catagory-slider2 .owl-nav {
   margin-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 10px; }
   @media only screen and (max-width: 767px) {
-    .world-catagory-slider .owl-nav,
-    .world-catagory-slider2 .owl-nav {
+    .egyprosoft-catagory-slider .owl-nav,
+    .egyprosoft-catagory-slider2 .owl-nav {
       margin-bottom: 30px; } }
-  .world-catagory-slider .owl-nav .owl-prev,
-  .world-catagory-slider .owl-nav .owl-next,
-  .world-catagory-slider2 .owl-nav .owl-prev,
-  .world-catagory-slider2 .owl-nav .owl-next {
+  .egyprosoft-catagory-slider .owl-nav .owl-prev,
+  .egyprosoft-catagory-slider .owl-nav .owl-next,
+  .egyprosoft-catagory-slider2 .owl-nav .owl-prev,
+  .egyprosoft-catagory-slider2 .owl-nav .owl-next {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 36px;
     flex: 0 0 36px;
@@ -692,24 +692,24 @@ img {
     line-height: 32px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
-    .world-catagory-slider .owl-nav .owl-prev:hover, .world-catagory-slider .owl-nav .owl-prev:focus,
-    .world-catagory-slider .owl-nav .owl-next:hover,
-    .world-catagory-slider .owl-nav .owl-next:focus,
-    .world-catagory-slider2 .owl-nav .owl-prev:hover,
-    .world-catagory-slider2 .owl-nav .owl-prev:focus,
-    .world-catagory-slider2 .owl-nav .owl-next:hover,
-    .world-catagory-slider2 .owl-nav .owl-next:focus {
+    .egyprosoft-catagory-slider .owl-nav .owl-prev:hover, .egyprosoft-catagory-slider .owl-nav .owl-prev:focus,
+    .egyprosoft-catagory-slider .owl-nav .owl-next:hover,
+    .egyprosoft-catagory-slider .owl-nav .owl-next:focus,
+    .egyprosoft-catagory-slider2 .owl-nav .owl-prev:hover,
+    .egyprosoft-catagory-slider2 .owl-nav .owl-prev:focus,
+    .egyprosoft-catagory-slider2 .owl-nav .owl-next:hover,
+    .egyprosoft-catagory-slider2 .owl-nav .owl-next:focus {
       border-color: #0000ff;
       color: #ffffff;
       background-color: #0000ff; }
-  .world-catagory-slider .owl-nav .owl-prev,
-  .world-catagory-slider2 .owl-nav .owl-prev {
+  .egyprosoft-catagory-slider .owl-nav .owl-prev,
+  .egyprosoft-catagory-slider2 .owl-nav .owl-prev {
     margin-right: 15px; }
 
-.world-latest-articles .title {
+.egyprosoft-latest-articles .title {
   margin-top: 50px;
   margin-bottom: 30px; }
-  .world-latest-articles .title h5 {
+  .egyprosoft-latest-articles .title h5 {
     display: block;
     font-size: 18px;
     color: #000000;
@@ -892,8 +892,8 @@ img {
        font-family: cairo , "Ubuntu", sans-serif ;
     font-weight: 700;
     margin-bottom: 30px; }
-  .contact-form button.world-btn,
-  .post-a-comment-area button.world-btn {
+  .contact-form button.egyprosoft-btn,
+  .post-a-comment-area button.egyprosoft-btn {
     border-color: #0000ff;
     background-color: #0000ff;
     color: #ffffff;
