@@ -2109,7 +2109,7 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
 }
 
 #adsModal .w-100 {
-  width: 80% !important;
+  width: 90vh !important;
   display: block;
   margin: auto;
 }
@@ -2118,6 +2118,10 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
   max-width: unset !important;
   margin: 0 !important;
   /* transform: unset !important; */
+}
+
+#adsModal .modal-body {
+  height: 100vh;
 }
 
 #adsModal .modal-content {
